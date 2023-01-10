@@ -52,8 +52,8 @@ body {
 
 .btn1 {
     box-sizing: border-box;
-    background: #000000;
-    color: #ffffff;
+    background: #FFF112;
+    color: #000000;
     font-size: 17px;
     text-decoration: none;
     text-transform: none;
@@ -68,7 +68,7 @@ body {
     line-height: 55px;
     position: relative;
     cursor: pointer;
-    transform: translate(100%,550%);
+    transform: translate(120%,550%);
 
 }
 
@@ -83,8 +83,8 @@ body {
 
 .btn2 {
     box-sizing: border-box;
-    background: #000000;
-    color: #ffffff;
+    background: #FFF112;
+    color: #030303;
     font-size: 17px;
     text-decoration: none;
     text-transform: none;
@@ -99,7 +99,7 @@ body {
     line-height: 55px;
     position: relative;
     cursor: pointer;
-    transform: translate(300%,400%);
+    transform: translate(350%,400%);
 }
 
 .btn2:hover {
@@ -162,8 +162,8 @@ body::-webkit-scrollbar-thumb {
     .btn1 {
 
         box-sizing: border-box;
-        background: #000000;
-        color: #ffffff;
+        background: #FFF112;
+        color: #030303;
         font-size: 12px;
         text-decoration: none;
         text-transform: none;
@@ -182,9 +182,8 @@ body::-webkit-scrollbar-thumb {
     
     .btn2 {
 
-        box-sizing: border-box;
-        background: #000000;
-        color: #ffffff;
+        background: #FFF112;
+        color: #030303;
         font-size: 12px;
         text-decoration: none;
         text-transform: none;
@@ -215,7 +214,7 @@ body::-webkit-scrollbar-thumb {
 
     }
 
-    .logo {
+    #logo {
         width: 3vh;
         transform: translate(30%, 105%);
     }
@@ -247,7 +246,8 @@ body::-webkit-scrollbar-thumb {
 
 
     .btn1 {
-
+        background: #FFF112;
+        color: #030303;
         position: relative;
         display: inline;
         vertical-align: auto;
@@ -258,7 +258,8 @@ body::-webkit-scrollbar-thumb {
         
     }
     .btn2 {
-
+        background: #FFF112;
+        color: #030303;
         position: relative;
         display: inline;
         vertical-align: auto;
@@ -309,16 +310,20 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (min-width: 1280px) and (max-width:1420px) {
-    .logo {
-        width: 17vh;
-        transform: translate(-100%, 30%);
+    #logo {
+        width: 47vh;
+        transform: translate(-10%, 50%);
     }
 
     .btn1 {
-        transform: translate(100%, 550%);
+        background: #FFF112;
+        color: #030303;
+        transform: translate(50%, 550%);
     }
     .btn2 {
-        transform: translate(285%,399%);
+        background: #FFF112;
+        color: #030303;
+        transform: translate(355%,399%);
     }
 
     .topedindo {
@@ -337,10 +342,14 @@ body::-webkit-scrollbar-thumb {
         transform: translate(-150%, 10%);
     }
     .btn1 {
+        background: #FFF112;
+        color: #030303;
         transform: translate(150%, 550%);
     }
     
     .btn2 {
+        background: #FFF112;
+        color: #030303;
         transform: translate(450%, 400%);
     }
 
