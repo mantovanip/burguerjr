@@ -68,7 +68,7 @@ body {
     line-height: 55px;
     position: relative;
     cursor: pointer;
-    transform: translate(120%,550%);
+    transform: translate(90%,550%);
 
 }
 
@@ -99,7 +99,7 @@ body {
     line-height: 55px;
     position: relative;
     cursor: pointer;
-    transform: translate(350%,400%);
+    transform: translate(340%,400%);
 }
 
 .btn2:hover {
@@ -157,7 +157,10 @@ body::-webkit-scrollbar-thumb {
 
 
 @media (min-width: 290px) and (max-width: 370px) {
-  
+    #logo {
+        width: 30vh;
+        transform: translate(-2%, 5%);
+    }
 
     .btn1 {
 
@@ -178,6 +181,7 @@ body::-webkit-scrollbar-thumb {
         line-height: 35px;
         position: relative;
         cursor: pointer;
+        transform: translate(10%, 390%);
     }
     
     .btn2 {
@@ -198,6 +202,8 @@ body::-webkit-scrollbar-thumb {
         line-height: 35px;
         position: relative;
         cursor: pointer;
+        transform: translate(10%, 390%);
+
     }
 
     .top-nav {
@@ -211,31 +217,26 @@ body::-webkit-scrollbar-thumb {
         margin: 0;
         object-fit: cover;
         border: 0;
-
     }
 
-    #logo {
-        width: 3vh;
-        transform: translate(30%, 105%);
-    }
-
+  
    
     #banner {
         display: inline-block;
+        
     }
 
     #topedindo {
-        margin: auto;
-        transform: translate(40%, 90%);
+        margin: 0;
+        transform: translate(40%, 120%);
         display: inline-block;
     }
 
     .footertxt {
-        transform: translate(40%, -140%);
-
+        transform: translate(40%, -160%);
         text-align: center;
         line-height: normal;
-        font: status-bar;
+        font-size: 11px;
     }
 
  
@@ -245,29 +246,44 @@ body::-webkit-scrollbar-thumb {
  
 
 
-    .btn1 {
+    .btn1{
+        box-sizing: border-box;
         background: #FFF112;
         color: #030303;
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: none;
+        vertical-align: middle;
+        flex: 150px;
+        text-indent: 35px;
+        display: flex;
+        padding: 2px;
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 180px;
+        line-height: 35px;
         position: relative;
-        display: inline;
-        vertical-align: auto;
-        text-indent: 55px;
-        font-size: 15px;
-        max-width: 250px;
-        line-height: 38px;
-        
+        cursor: pointer;
+        transform: translate(40%, 590%);
     }
     .btn2 {
         background: #FFF112;
         color: #030303;
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: none;
+        vertical-align: middle;
+        flex: 150px;
+        text-indent: 35px;
+        display: flex;
+        padding: 2px;
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 180px;
+        line-height: 35px;
         position: relative;
-        display: inline;
-        vertical-align: auto;
-        text-indent: 55px;
-        font-size: 15px;
-        max-width: 250px;
-        line-height: 38px;
-        transform: translate(25%, 100%);
+        cursor: pointer;
+        transform: translate(40%, 800%);
 
     }
     .top-nav {
@@ -285,8 +301,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     #logo {
-        width: 25vh;
-        transform: translate(25%, 100%);
+        width: 15vh;
+        transform: translate(-5%, 1%);
     }
 
  
@@ -297,33 +313,33 @@ body::-webkit-scrollbar-thumb {
 
     #topedindo {
         margin: auto;
-        transform: translate(50%, 110%);
+        transform: translate(55%, 110%);
         display: inline-block;
     }
 
     .footertxt {
-        transform: translate(30%, -150%);
+        transform: translate(40%, -150%);
         text-align: center;
     }
 
     
 }
 
-@media (min-width: 1280px) and (max-width:1420px) {
+@media (min-width: 1480px) and (max-width:1620px) {
     #logo {
         width: 47vh;
-        transform: translate(-10%, 50%);
+        transform: translate(20%, 50%);
     }
 
     .btn1 {
         background: #FFF112;
         color: #030303;
-        transform: translate(50%, 550%);
+        transform: translate(90%, 550%);
     }
     .btn2 {
         background: #FFF112;
         color: #030303;
-        transform: translate(355%,399%);
+        transform: translate(400%,399%);
     }
 
     .topedindo {
@@ -331,15 +347,15 @@ body::-webkit-scrollbar-thumb {
     }
 
     .footertxt {
-        transform: translate(-240%, 50%);
+        transform: translate(-270%, 50%);
     }
 }
 
 
-@media (min-width: 1420px) and (max-width:1920px) {
-    .logo {
-        width: 15vh;
-        transform: translate(-150%, 10%);
+@media (min-width: 1620px) and (max-width:1920px) {
+    #logo {
+        width: 35vh;
+        transform: translate(-10%, 40%);
     }
     .btn1 {
         background: #FFF112;
